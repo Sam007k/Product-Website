@@ -1,0 +1,977 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81lqcs7D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81lqcs7N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kOcc7D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kOcc7N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdH35WCmI96Ajtm81GrU9vyww.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdH35WCmI96Ajtm81GlU9s.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81l6d87D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81l6d87N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81keds7D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81keds7N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kCdc7D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kCdc7N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kmdM7D4howig.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81kmdM7N4ho.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/**
+*
+* Testing
+*
+**/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --emperor: #534a4b;
+  --brown: #cc876e;
+  --transition: all 0.5s ease-in-out;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Overpass';
+  position: relative;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+button {
+  outline: 0;
+  cursor: pointer;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.btn-trans {
+  background: transparent;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0.8rem 2.2rem;
+  border: 1px solid #fff;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.btn-trans:hover {
+  background: var(--emperor);
+  border-color: var(--emperor);
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text {
+  margin: 0.6rem 0;
+  color: #e0e0e0;
+  font-weight: 200;
+  word-spacing: 2px;
+}
+
+header {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/header-banner.jpg?raw=true") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/header-banner.jpg?raw=true") center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem 0;
+  border-bottom: 1.5px solid #fff;
+}
+
+header nav .navbar-brand {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  header nav .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+  header nav .navbar-brand {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 200px;
+            flex: 0 0 200px;
+  }
+}
+
+header nav .navbar-toggler {
+  z-index: 1000;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.6rem;
+  border: none;
+  color: #fff;
+  background: none;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+header nav .navbar-toggler:hover {
+  color: var(--brown);
+}
+
+@media (min-width: 769px) {
+  header nav .navbar-toggler {
+    display: none;
+  }
+}
+
+header nav .nav-btns {
+  display: none;
+}
+
+header nav .nav-icons {
+  display: none;
+}
+
+@media (min-width: 361px) and (min-width: 476px) {
+  header nav .nav-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .nav-icons span {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  header nav .nav-icons span:hover {
+    opacity: 0.8;
+  }
+}
+
+header nav .navbar-collapse {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  height: 100%;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+@media (min-width: 769px) {
+  header nav .navbar-collapse {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+  }
+}
+
+header nav .navbar-collapse .navbar-nav {
+  margin-top: 7rem !important;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+  header nav .navbar-collapse .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 !important;
+  }
+}
+
+header nav .navbar-collapse .navbar-nav .nav-item {
+  margin: 0.7rem 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  header nav .navbar-collapse .navbar-nav .nav-item {
+    padding: 0;
+    margin: 0 0.8rem;
+  }
+}
+
+header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: var(--brown);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+@media (min-width: 769px) {
+  header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  header nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    text-shadow: none;
+    color: var(--brown);
+  }
+}
+
+header nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  text-shadow: 0 0 4px #fff;
+  color: #fff;
+}
+
+header nav .shownav {
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  header .navbar-extra-content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 30%;
+            flex: 1 0 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 769px) and (min-width: 769px) {
+  header .navbar-extra-content .nav-btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) and (min-width: 769px) {
+  header .navbar-extra-content .nav-btns button {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.9;
+    padding: 0.4rem 0;
+    border-width: 0.5px;
+    border-style: solid;
+    margin: 0 0.5rem;
+    width: 100px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  header .navbar-extra-content .nav-btns button:hover {
+    opacity: 1;
+  }
+  header .navbar-extra-content .nav-btns button:first-child {
+    border-color: var(--emperor);
+    background: var(--emperor);
+    color: #fff;
+  }
+  header .navbar-extra-content .nav-btns button:first-child:hover {
+    border-color: #fff;
+    background: transparent;
+  }
+  header .navbar-extra-content .nav-btns button:last-child {
+    border-color: #fff;
+    background: transparent;
+    color: #fff;
+  }
+  header .navbar-extra-content .nav-btns button:last-child:hover {
+    border-color: var(--emperor);
+    background: var(--emperor);
+  }
+}
+
+header .header-banner {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.95;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  header .header-banner {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  header .header-banner .header-banner div {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+header .header-banner h3 {
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+@media (min-width: 769px) {
+  header .header-banner h3 {
+    font-size: 1.3rem;
+  }
+}
+
+header .header-banner .header-banner-title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+  line-height: 1.3;
+  letter-spacing: -1.5px;
+}
+
+@media (min-width: 360px) and (min-width: 375px) and (min-width: 475px) and (min-width: 769px) {
+  header .header-banner .header-banner-title {
+    font-size: 4rem;
+  }
+}
+
+header .resize-animation-stopper * {
+  -webkit-animation: none !important;
+          animation: none !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.features {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/background-img-1.png?raw=true") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/background-img-1.png?raw=true") center/cover no-repeat fixed;
+}
+
+@media (min-width: 361px) and (min-width: 476px) and (min-width: 768px) {
+  .features .features-wrapper {
+    padding: 5rem 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.features .feature-item {
+  padding: 2.5rem;
+  border-bottom: 0.5px solid #cdcdcd;
+}
+
+@media (min-width: 361px) and (min-width: 476px) and (min-width: 768px) {
+  .features .feature-item {
+    border: none;
+  }
+  .features .feature-item:nth-child(odd) {
+    border-right: 0.5px solid #cdcdcd;
+  }
+}
+
+.features .feature-item .feature-icon {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.features .feature-item .feature-title {
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0.6rem 0;
+  font-weight: 300;
+}
+
+.product {
+  padding: 5rem 0;
+}
+
+.product .product-wrapper .product-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (min-width: 769px) {
+  .product .product-item-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+}
+
+.product .product-item-wrapper .product-item {
+  border-radius: 1rem;
+  margin: 5rem 0;
+  padding: 1.5rem 0;
+  text-align: center;
+  position: relative;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.product .product-item-wrapper .product-item:hover {
+  background: #f1f1f1;
+}
+
+.product .product-item-wrapper .product-item:first-of-type {
+  margin-top: 2rem;
+}
+
+.product .product-item-wrapper .product-item:last-of-type {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 501px) {
+  .product .product-item-wrapper .product-item:last-of-type {
+    margin-top: 2rem;
+  }
+}
+
+.product .product-item-wrapper .product-item img {
+  width: 160px;
+  margin: 0 auto;
+}
+
+@media (min-width: 501px) {
+  .product .product-item-wrapper .product-item img {
+    width: 200px;
+  }
+}
+
+.product .product-item-wrapper .product-item .product-info {
+  padding: 2rem;
+}
+
+.product .product-item-wrapper .product-item .product-info h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.product .product-item-wrapper .product-item .product-info .text {
+  color: var(--emperor);
+}
+
+@media (min-width: 500px) {
+  .product .product-item-wrapper .product-item .product-info .text {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.product .product-item-wrapper .product-item .product-info .rating span {
+  color: var(--emperor);
+}
+
+.product .product-item-wrapper .product-item .new-btn {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: var(--brown);
+  color: #fff;
+  padding: 0.5rem 1.6rem;
+  border-radius: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.product .product-item-wrapper .product-item .new-btn:hover {
+  opacity: 0.8;
+}
+
+.product .product-item-wrapper .product-item .add-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  font-size: 1rem;
+  border: none;
+  background: var(--emperor);
+  color: #fff;
+  padding: 0.7rem 1.8rem;
+  border-radius: 1.3rem;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.product .product-item-wrapper .product-item .add-btn:hover {
+  background: #000;
+}
+
+.order {
+  padding: 5rem 0;
+  background: var(--emperor);
+}
+
+.order .order-wrapper {
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+  .order .order-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.order .order-wrapper img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.order .order-wrapper .order-content {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .order .order-wrapper .order-content {
+    text-align: left;
+  }
+}
+
+.order .order-wrapper .order-content .order-title {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.order .order-wrapper .order-content .brn-trans {
+  margin-top: 1rem;
+}
+
+.order .order-wrapper .order-content .brn-trans:hover {
+  background: #fff;
+  color: var(--emperor);
+}
+
+.reviews {
+  background: #fff;
+  padding: 5rem 0;
+}
+
+.reviews .reviews-wrapper {
+  position: relative;
+  height: 400px;
+}
+
+.reviews .reviews-wrapper button {
+  background: var(--brown);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border: none;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.reviews .reviews-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.reviews .reviews-wrapper .prev-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.reviews .reviews-wrapper .next-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.reviews .reviews-wrapper .review-item {
+  text-align: center;
+  padding: 3rem;
+  display: none;
+}
+
+.reviews .reviews-wrapper .review-item .review-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.reviews .reviews-wrapper .review-item .text {
+  font-size: 1rem;
+  color: var(--emperor);
+  margin: 2rem 0;
+  padding: 2rem 0;
+  color: var(--emperor);
+}
+
+@media (min-width: 501px) {
+  .reviews .reviews-wrapper .review-item .text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .reviews .reviews-wrapper .review-item .text {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.reviews .reviews-wrapper .review-item h3 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+@media (min-width: 501px) {
+  .reviews .reviews-wrapper .review-item h3 {
+    font-size: 1.3rem;
+  }
+}
+
+.reviews .reviews-wrapper .activeSlide {
+  display: block;
+}
+
+/* NewsLetter */
+.newsletter {
+  height: 60vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/background-img-2.png?raw=true") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://github.com/prabinmagar/sony-headphone-site/blob/master/images/background-img-2.png?raw=true") center/cover no-repeat fixed;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.newsletter .newsletter-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.newsletter .newsletter-wrapper .btn-trans {
+  background: var(--brown);
+  border-color: var(--emperor);
+}
+
+.newsletter .newsletter-wrapper .btn-trans:hover {
+  background: #fff;
+  color: var(--emperor);
+}
+
+.newsletter .form-control {
+  font-size: 1rem;
+  background: transparent;
+  padding: 0.8rem 1rem;
+  border: 1.5px solid var(--brown);
+  color: var(--brown);
+  font-weight: 200;
+}
+
+@media (min-width: 769px) {
+  .newsletter .form-control {
+    width: 400px;
+  }
+}
+
+.newsletter .form-control::-webkit-input-placeholder {
+  color: var(--brown);
+}
+
+.newsletter .form-control:-ms-input-placeholder {
+  color: var(--brown);
+}
+
+.newsletter .form-control::-ms-input-placeholder {
+  color: var(--brown);
+}
+
+.newsletter .form-control::placeholder {
+  color: var(--brown);
+}
+
+.newsletter .form-control:focus {
+  outline: none;
+}
+
+.form-control, .newsletter .btn-trans {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .form-control, .newsletter .btn-trans {
+    width: 70%;
+  }
+}
+
+@media (min-width: 769px) {
+  .form-control, .newsletter .btn-trans {
+    width: auto;
+  }
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer .footer-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 5rem 0;
+}
+
+@media (min-width: 501px) {
+  .footer .footer-wrapper {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer .footer-wrapper div {
+  margin: 2rem 0;
+}
+
+.footer .footer-wrapper .footer-links li {
+  margin: 0.6rem 0;
+}
+
+.footer .footer-wrapper .footer-links a {
+  color: #f1f1f1;
+  font-weight: 200;
+  opacity: 0.9;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 501px) {
+  .footer .footer-wrapper .footer-links a {
+    font-size: 1rem;
+  }
+}
+
+.footer .footer-wrapper .footer-links a:hover {
+  color: var(--brown);
+}
+/*# sourceMappingURL=styles.css.map */
